@@ -42,7 +42,7 @@ jobs:
 
       # Upload the results as artifacts (optional).
       - name: "Upload artifact"
-        uses: actions/upload-artifact@2244c8200304ec9588bf9399eac622d9fadc28c4
+        uses: actions/upload-artifact@184d73b71b93c222403b2e7f1ffebe4508014249
         with:
           name: SARIF file
           path: results.sarif
